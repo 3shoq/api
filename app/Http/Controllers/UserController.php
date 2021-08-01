@@ -19,6 +19,8 @@ use Laravel\Sanctum\SanctumServiceProvider;
 use Illuminate\Foundation\Support\Providers\EventServiceProvider as ServiceProvider;
 use Laravel\Sanctum\HasApiTokens;
 use Illuminate\Validation\ValidationException;
+use  App\Models\comment;
+
 
 class UserController extends Controller
 {
