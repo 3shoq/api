@@ -10,16 +10,16 @@ use App\Http\Controllers\Controller;
 use App\Http\Resources\UsersResource;
 use App\Http\Resources\UserResource;
 use App\Http\Resources\AuthorPostsResource;
-use  App\Models\Post;
-use   App\Http\Resources\UserCommentsResource;
-use   App\Http\Resources\PostsResource;
+use App\Models\Post;
+use App\Http\Resources\UserCommentsResource;
+use App\Http\Resources\PostsResource;
 use Illuminate\Support\Facades\Auth;
 use Illuminate\Support\Facades\DB;
 use Laravel\Sanctum\SanctumServiceProvider;
 use Illuminate\Foundation\Support\Providers\EventServiceProvider as ServiceProvider;
 use Laravel\Sanctum\HasApiTokens;
 use Illuminate\Validation\ValidationException;
-use  App\Models\comment;
+use App\Models\comment;
 
 
 class UserController extends Controller
