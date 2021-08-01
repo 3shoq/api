@@ -62,7 +62,7 @@ public function Posts()
      *
      * @return \Illuminate\Database\Eloquent\Relations\HasMany
      */
-    public function comments()
+    public function Comments()
     {
         return $this->hasMany(Comment::class);
     }

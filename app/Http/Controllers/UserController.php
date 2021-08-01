@@ -174,11 +174,11 @@ class UserController extends Controller
      */
 
 
-    public function comments($id){
+    public function Comments($id){
 
 
         $user = User::find($id);
-        $comments = $user->comments()->paginate();
+        $comments = $user->Comments()->paginate();
 
         return new UserCommentsResource($comments);
 
