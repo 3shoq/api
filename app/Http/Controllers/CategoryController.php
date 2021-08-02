@@ -23,7 +23,7 @@ class CategoryController extends Controller
      */
     public function index()
     {
-        $Catogory = \App\Models\Category::Paginate();
+        $Catogory = api\App\Models\Category::Paginate();
         return new CategoryResource($Catogory);
     }
 
