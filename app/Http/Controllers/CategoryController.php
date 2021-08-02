@@ -4,7 +4,7 @@ namespace App\Http\Controllers;
 
 
 use App\Http\Controllers\Controller;
-use App\Models\category;
+use app\Models\Category;
 use Illuminate\Http\Request;
 use App\Models\post;
 use   App\Http\Resources\PostsResource;
